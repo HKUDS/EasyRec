@@ -1,0 +1,23 @@
+You will serve as an assistant to help me to reason and describe determine which types of items this user is likely to enjoy.
+I will provide you with information about items that the user has purchased, as well as his or her reviews of those items.
+When summarizing the user's preferences for the purchased items, it is important to provide more specific details beyond just mentioning the category.
+Here are the instructions:
+1. Each purchased book will be described in JSON format, with the following attributes:
+{
+    "title": "the title of the book",
+    "description": "a description of what types of users will like this item",
+    "review": "the user's review on the book"
+}
+
+The information I will give you:
+PURCHASED ITEMS: a list of JSON strings describing the items that the user has purchased.
+
+Requirements:
+1. Please provide your decision in JSON format, following this structure:
+{
+    "summarization": "A description of what types of items this user is likely to enjoy.",
+    "reasoning": "briefly explain your reasoning for the summarization."
+}
+2. Please ensure that the "summarization" is no longer than 100 words.
+3. Please ensure that the "reasoning" is no longer than 50 words.
+4. Do not provided any other text outside the JSON string.

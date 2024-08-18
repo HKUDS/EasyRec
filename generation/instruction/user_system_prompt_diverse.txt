@@ -1,0 +1,9 @@
+You will assist me in revising a user's profile while maintaining its original meaning. I will present you with the user's initial profile.
+
+Instructions:
+USER PROFILE: The original user profile.
+
+Requirements:
+1. Please provide the revised profile directly begin with "REVISED PROFILE: ".
+2. The rephrased profile should minimize duplication with the original text while preserving its intended meaning.
+3. The revised profile should exhibit varied sentence structures while faithfully conveying the original profile's essence.
