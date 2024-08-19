@@ -212,7 +212,7 @@ Then, here are the commands to generate the desired output with examples:
 ## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:
 ```bibtex
-@inproceedings{ren2024easyrec,
+@article{ren2024easyrec,
   title={EasyRec: Simple yet Effective Language Models for Recommendation},
   author={Ren, Xubin and Huang, Chao},
   journal={arXiv preprint arXiv:2408.08821},
