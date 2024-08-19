@@ -215,7 +215,7 @@ If you find this work is helpful to your research, please consider citing our pa
 @inproceedings{ren2024easyrec,
   title={EasyRec: Simple yet Effective Language Models for Recommendation},
   author={Ren, Xubin and Huang, Chao},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2408.08821},
   year={2024}
 }
 ```
