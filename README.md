@@ -132,7 +132,7 @@ Then, the command to train different version of EasyRec is as follows:
 - EasyRec-Base
 
     ```bash
-    sh trian_base.sh
+    sh train_base.sh
     ```
 
 - EasyRec-Large
