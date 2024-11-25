@@ -1,4 +1,4 @@
-# EasyRec: Simple yet Effective Language Model for Recommendation
+# EasyRec: Simple yet Effective Language Models for Recommendation
 
 This is the PyTorch implementation by <a href='https://github.com/Re-bin'>@Re-bin</a> for EasyRec model proposed in this [paper](https://arxiv.org/abs/2408.08821):
 
