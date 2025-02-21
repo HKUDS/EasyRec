@@ -12,7 +12,6 @@ from models.bulid_model import build_model
 from config.configurator import configs
 from .utils import DisabledSummaryWriter, log_exceptions
 
-
 def init_seed():
     if 'reproducible' in configs['train']:
         if configs['train']['reproducible']:
@@ -24,7 +23,6 @@ def init_seed():
         torch.cuda.manual_seed_all(seed)
         torch.backends.cudnn.benchmark = False
         torch.backends.cudnn.deterministic = True
-
 
 class Trainer(object):
     def __init__(self, data_handler, logger):

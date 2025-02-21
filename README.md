@@ -207,7 +207,6 @@ Then, here are the commands to generate the desired output with examples:
 
 😀 The **instructions** we designed are saved in the `generation/instruction` folder. You can modify them according to your requirements and generate the desired output!
 
-
 ## 🌟 Citation
 If you find this work is helpful to your research, please consider citing our paper:
 ```bibtex
