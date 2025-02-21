@@ -161,7 +161,6 @@ Then, conduct the evaluation (only the model name for the argument `--model` her
 python eval_text_emb.py --model easyrec-roberta-large --cuda 0
 ```
 
-
 Since there are 3 diversified profiles for both user and item in each dataset, we perform the evaluation 1+3 times with the corresponding text embeddings and calculate the mean value as the final result.
 
 ### Text-enhanced Collaborative Filtering

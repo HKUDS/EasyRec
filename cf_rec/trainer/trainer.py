@@ -89,9 +89,6 @@ class Trainer(object):
                     best_state_dict = deepcopy(model.state_dict())
                 else:
                     now_patience += 1
-                    # For NCL in Amazon, it is recommended to train for more than 100 epochs in order to achieve stability.
-                    if 'ncl' in configs['model']['name'] and configs['data']['name'] == 'amazon' and epoch_idx < 100:
-                        now_patience = 0
 
                 # early stop
                 if now_patience == configs['train']['patience']:
