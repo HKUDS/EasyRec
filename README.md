@@ -4,6 +4,7 @@ This is the PyTorch implementation by <a href='https://github.com/Re-bin'>@Re-bi
 
 >**EasyRec: Simple yet Effective Language Models for Recommendation**\
 >Xubin Ren, Chao Huang*
+>*EMNLP 2025*
 
 \* denotes corresponding author
 
