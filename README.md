@@ -3,7 +3,7 @@
 This is the PyTorch implementation by <a href='https://github.com/Re-bin'>@Re-bin</a> for EasyRec model proposed in this [paper](https://arxiv.org/abs/2408.08821):
 
 >**EasyRec: Simple yet Effective Language Models for Recommendation**\
->Xubin Ren, Chao Huang*
+> Xubin Ren, Chao Huang*\
 >*EMNLP 2025*
 
 \* denotes corresponding author
