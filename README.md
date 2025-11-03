@@ -14,6 +14,8 @@ In this paper, we propose an effective language model, *EasyRec*, for recommenda
 <img src="EasyRec.png" alt="EasyRec"/>
 </p>
 
+>There’s a minor typo in Table 10 and Appendix F.5 of the paper, the metric we calculated is “Intra-List Distance (ILD)” but not “Intra-List Similarity (ILS)”. We’ve fixed this in the arXiv version respectively.
+
 ## 📝 Environment
 Please run the following  commands to create a conda environment:
 
