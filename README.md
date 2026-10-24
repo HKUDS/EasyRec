@@ -193,8 +193,8 @@ Then, navigate to the `cf_rec` folder by running `cd cf_rec`. After that, execut
 ## 🔮 Profile Generation and Diversification
 Here we provide some examples with *Amazon-Arts* Data to conduct user/item profile generation and diversification.
 
-Firstly, we need to complete the following three steps.
-- Install the openai library `pip install openai`
+Firstly, we need to complete the following three steps. The generation scripts use the pre-1.0 `openai.ChatCompletion.create` API, so install a compatible client version:
+- Install the OpenAI library `pip install "openai>=0.28.1,<1.0.0"`
 - Prepare your **OpenAI API Key**
 - Enter your key on `Line 5` of these files: `generation/generate_profile.py` and `generation/diverse_profile.py`.
 
