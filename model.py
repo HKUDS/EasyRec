@@ -190,7 +190,9 @@ class Easyrec(RobertaPreTrainedModel):
         )
         
         # MLM auxiliary objective
-        if mlm_input_ids is not None:
+        do_mlm = self.model_args.do_mlm
+        mlm_outputs = None
+        if do_mlm and mlm_input_ids is not None:
             mlm_outputs = self.roberta(
                 input_ids=mlm_input_ids,
                 attention_mask=mlm_attention_mask,
@@ -247,7 +249,7 @@ class Easyrec(RobertaPreTrainedModel):
         loss = loss_fct(cos_sim, labels)
         
         # Calculate loss for MLM
-        if mlm_outputs is not None and mlm_labels is not None and self.model_args.do_mlm:
+        if mlm_outputs is not None and mlm_labels is not None:
             mlm_labels = mlm_labels.view(-1, mlm_labels.size(-1))
             prediction_scores = self.lm_head(mlm_outputs.last_hidden_state)
             masked_lm_loss = loss_fct(prediction_scores.view(-1, self.config.vocab_size), mlm_labels.view(-1))
